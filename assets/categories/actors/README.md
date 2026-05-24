@@ -1,0 +1,1 @@
+Add actor images here. Recommended names: 1.jpg ... 10.jpg
