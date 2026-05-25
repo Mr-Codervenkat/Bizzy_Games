@@ -91,7 +91,7 @@ export default function SplashScreen({ navigation }) {
           { transform: [{ translateY: titleY }], opacity: titleOpacity },
         ]}
       >
-        Image Puzzle
+        BIZZY FUN
       </Animated.Text>
       <Animated.Text
         style={[
@@ -99,7 +99,7 @@ export default function SplashScreen({ navigation }) {
           { opacity: subtitleOpacity },
         ]}
       >
-        GAME
+        GAMES
       </Animated.Text>
 
       <Animated.Text style={[styles.tagline, { opacity: subtitleOpacity }]}>

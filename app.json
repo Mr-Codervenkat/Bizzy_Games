@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Image Puzzle Game",
+    "name": "Bizzy Games",
     "slug": "image-puzzle-game",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

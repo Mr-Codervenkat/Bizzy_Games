@@ -128,9 +128,17 @@ export default function HomeScreen({ navigation }) {
       <StatusBar barStyle="light-content" backgroundColor="#0f0f23" />
 
       <Animated.View style={[styles.header, { transform: [{ translateY: headerAnim }] }]}>
-        <View>
-          <Text style={styles.headerTitle}>Puzzle</Text>
-          <Text style={styles.headerSubtitle}>Image Puzzle Game</Text>
+        <View style={styles.headerLeft}>
+          <TouchableOpacity
+            onPress={() => (navigation.canGoBack() ? navigation.goBack() : navigation.navigate('MainMenu'))}
+            style={styles.headerBackBtn}
+          >
+            <Text style={styles.headerBackText}>{'‹'}</Text>
+          </TouchableOpacity>
+          <View style={styles.headerTitleWrap}>
+            <Text style={styles.headerTitle}>Puzzle</Text>
+            <Text style={styles.headerSubtitle}>Image Puzzle Game</Text>
+          </View>
         </View>
         <View style={styles.headerRight}>
           <TouchableOpacity onPress={handleMuteToggle} style={styles.iconBtn}>
@@ -141,7 +149,6 @@ export default function HomeScreen({ navigation }) {
           </TouchableOpacity>
         </View>
       </Animated.View>
-
       <Animated.View style={[styles.statsBanner, { opacity: fadeAnim }]}>
         <LinearGradient
           colors={['rgba(168,85,247,0.3)', 'rgba(79,70,229,0.3)']}
@@ -209,6 +216,22 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 8,
   },
+  headerLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  headerBackBtn: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: 'rgba(255,255,255,0.06)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 6,
+  },
+  headerBackText: { fontSize: 20, color: '#fff', fontWeight: '700' },
+  headerTitleWrap: { justifyContent: 'center' },
   iconBtn: {
     minWidth: 52,
     height: 44,

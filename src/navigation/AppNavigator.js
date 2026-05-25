@@ -9,6 +9,9 @@ import CategoryScreen from '../screens/CategoryScreen/CategoryScreen';
 import PuzzleScreen from '../screens/PuzzleScreen/PuzzleScreen';
 import SettingsScreen from '../screens/SettingsScreen/SettingsScreen';
 import SnakeGame from '../screens/SnakeGame/SnakeGame';
+import FruitSlicer from '../screens/FruitSlicer/Fruitslicer';
+import BirdyBird from '../screens/BirdyBird/BirdyBird';
+import XOXGame from '../screens/XOXGame/XOXGame';
 
 const Stack = createStackNavigator();
 
@@ -26,6 +29,9 @@ const AppNavigator = () => {
         <Stack.Screen name="Puzzle" component={PuzzleScreen} />
         <Stack.Screen name="Snake" component={SnakeGame} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="FruitSlicer" component={FruitSlicer} />
+        <Stack.Screen name="BirdyBird" component={BirdyBird} />
+        <Stack.Screen name="XOX" component={XOXGame} />
       </Stack.Navigator>
     </NavigationContainer>
   );

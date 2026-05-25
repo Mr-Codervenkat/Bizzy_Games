@@ -24,14 +24,14 @@ export const DEFAULT_CATEGORIES = [
     icon: '🕉️',
     color: '#FF6B35',
     gradientColors: ['#FF6B35', '#FF8C42'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'devotional',
     images: withLocalImages('devotional', [
       { id: 'dev_1', name: 'Ganesha', uri: 'https://picsum.photos/seed/ganesha/400/400' },
-      { id: 'dev_2', name: 'Krishna', uri: 'https://picsum.photos/seed/krishna/400/400' },
-      { id: 'dev_3', name: 'Shiva', uri: 'https://picsum.photos/seed/shiva1/400/400' },
-      { id: 'dev_4', name: 'Lakshmi', uri: 'https://picsum.photos/seed/lakshmi/400/400' },
-      { id: 'dev_5', name: 'Saraswati', uri: 'https://picsum.photos/seed/saras/400/400' },
+      { id: 'dev_2', name: 'Shiva', uri: 'https://picsum.photos/seed/shiva/400/400' },
+      { id: 'dev_3', name: 'Perumal', uri: 'https://picsum.photos/seed/perumal/400/400' },
+      { id: 'dev_4', name: 'Murugan', uri: 'https://picsum.photos/seed/murugan/400/400' },
+      { id: 'dev_5', name: 'temple1', uri: 'https://picsum.photos/seed/saras/400/400' },
       { id: 'dev_6', name: 'Murugan', uri: 'https://picsum.photos/seed/murugan/400/400' },
       { id: 'dev_7', name: 'Hanuman', uri: 'https://picsum.photos/seed/hanuman/400/400' },
       { id: 'dev_8', name: 'Durga', uri: 'https://picsum.photos/seed/durga1/400/400' },
@@ -45,7 +45,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🎬',
     color: '#6C63FF',
     gradientColors: ['#6C63FF', '#8B85FF'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'actors',
     images: withLocalImages('actors', [
       { id: 'act_1', name: 'Actor 1', uri: 'https://picsum.photos/seed/actor1/400/400', musicKey: '1' },
@@ -66,7 +66,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🌟',
     color: '#E91E63',
     gradientColors: ['#E91E63', '#F06292'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'actresses',
     images: withLocalImages('actresses', [
       { id: 'actr_1', name: 'Actress 1', uri: 'https://picsum.photos/seed/actress1/400/400' },
@@ -87,7 +87,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🍎',
     color: '#4CAF50',
     gradientColors: ['#2E7D32', '#66BB6A'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'fruits',
     images: withLocalImages('fruits', [
       { id: 'fr_1', name: 'Apple', uri: 'https://picsum.photos/seed/apple1/400/400' },
@@ -108,7 +108,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🍛',
     color: '#FF9800',
     gradientColors: ['#E65100', '#FFA726'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'food',
     images: withLocalImages('food', [
       { id: 'food_1', name: 'Biryani', uri: 'https://picsum.photos/seed/biryani/400/400' },
@@ -129,7 +129,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🦁',
     color: '#795548',
     gradientColors: ['#4E342E', '#8D6E63'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'animals',
     images: withLocalImages('animals', [
       { id: 'ani_1', name: 'Lion', uri: 'https://picsum.photos/seed/lion123/400/400' },
@@ -150,7 +150,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🌿',
     color: '#009688',
     gradientColors: ['#00695C', '#26A69A'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'nature',
     images: withLocalImages('nature', [
       { id: 'nat_1', name: 'Mountain', uri: 'https://picsum.photos/seed/mount1/400/400' },
@@ -171,7 +171,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🐭',
     color: '#FFEB3B',
     gradientColors: ['#F57F17', '#FFCA28'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'cartoons',
     images: withLocalImages('cartoons', [
       { id: 'car_1', name: 'Mickey', uri: 'https://picsum.photos/seed/micke1/400/400' },
@@ -192,7 +192,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '🎊',
     color: '#9C27B0',
     gradientColors: ['#6A1B9A', '#AB47BC'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'festivals',
     images: withLocalImages('festivals', [
       { id: 'fes_1', name: 'Diwali', uri: 'https://picsum.photos/seed/diwali/400/400' },
@@ -213,7 +213,7 @@ export const DEFAULT_CATEGORIES = [
     icon: '👶',
     color: '#03A9F4',
     gradientColors: ['#01579B', '#29B6F6'],
-    totalPuzzles: 15,
+    totalPuzzles: 10,
     musicKey: 'kids',
     images: withLocalImages('kids', [
       { id: 'kid_1', name: 'Playing', uri: 'https://picsum.photos/seed/kidpl1/400/400' },

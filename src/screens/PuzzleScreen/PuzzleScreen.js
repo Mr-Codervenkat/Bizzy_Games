@@ -472,7 +472,7 @@ export default function PuzzleScreen({ route, navigation }) {
           <Text style={styles.statText}>{TOTAL_PIECES - trayPieces.length}/{TOTAL_PIECES}</Text>
         </View>
         <TouchableOpacity onPress={togglePause} style={styles.actionButton}>
-          <Text style={styles.actionButtonText}>{isPaused ? 'Play' : 'Pause'}</Text>
+          <Text style={styles.actionButtonText}>{isPaused ? '▶️Play' : '⏸️Pause'}</Text>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() =>
@@ -483,7 +483,7 @@ export default function PuzzleScreen({ route, navigation }) {
           }
           style={styles.actionButton}
         >
-          <Text style={styles.actionButtonText}>Restart</Text>
+          <Text style={styles.actionButtonText}> 🔄Restart</Text>
         </TouchableOpacity>
       </View>
 

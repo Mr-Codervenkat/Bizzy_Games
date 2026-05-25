@@ -124,12 +124,12 @@ export default function CategoryScreen({ route, navigation }) {
         >
           <View style={styles.headerTop}>
             <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn}>
-              <Text style={styles.backBtnText}>{"<"} Back</Text>
+              <Text style={styles.backBtnText}>{"<"}</Text>
             </TouchableOpacity>
 
             <View style={styles.headerActions}>
               <TouchableOpacity onPress={handleMuteToggle} style={styles.iconBtn}>
-                <Text style={styles.iconBtnText}>{isMuted ? 'Mute' : 'Music'}</Text>
+                <Text style={styles.iconBtnText}>{isMuted ? '🔇' : '🔊'}</Text>
               </TouchableOpacity>
             </View>
           </View>
