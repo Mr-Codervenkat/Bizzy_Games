@@ -12,6 +12,7 @@ import SnakeGame from '../screens/SnakeGame/SnakeGame';
 import FruitSlicer from '../screens/FruitSlicer/Fruitslicer';
 import BirdyBird from '../screens/BirdyBird/BirdyBird';
 import XOXGame from '../screens/XOXGame/XOXGame';
+import BounceTales from '../screens/BounceTales/BounceTales';
 
 const Stack = createStackNavigator();
 
@@ -32,6 +33,7 @@ const AppNavigator = () => {
         <Stack.Screen name="FruitSlicer" component={FruitSlicer} />
         <Stack.Screen name="BirdyBird" component={BirdyBird} />
         <Stack.Screen name="XOX" component={XOXGame} />
+        <Stack.Screen name="BounceTales" component={BounceTales} />
       </Stack.Navigator>
     </NavigationContainer>
   );
